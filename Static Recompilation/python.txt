@@ -1,0 +1,8 @@
+return '"%s"' % new    returns string new
+
+[1:5] is equivalent to "from 1 to 5" (5 not included)
+[1:] is equivalent to "1 to end"
+[len(a):] is equivalent to "from length of a to end"
+[:-2] is everything except the last two elements.
+[:-1] is everything except the last element.
+[::-1] to reverse a string
