@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StaticRecompilation
+</name>
+</assembly>
+<members>
+<member name="M:StaticRecompilation.PEImage.Backup">
+	<summary>
+ Creates a backup of the PE file
+ </summary>
+</member><member name="M:StaticRecompilation.PEImage.GetNextSection">
+	<summary>
+ Call this member to retrieve an initialised new sectionheader for the PE-file
+ </summary>
+	<returns></returns>
+</member><member name="M:StaticRecompilation.ProcessMemoryStream.Read(System.Byte[],System.Int32,System.Int32)">
+	<summary>
+ reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.
+ </summary>
+	<param name="buffer">An array of bytes. When this method returns, the buffer contains the specified byte array with the values between offset and (offset + count - 1) replaced by the bytes read from the current source. </param>
+	<param name="offset">The zero-based byte offset in buffer at which to begin storing the data read from the current stream. </param>
+	<param name="count">The maximum number of bytes to be read from the current stream.</param>
+	<returns>The total number of bytes read into the buffer. This can be less than the number of bytes requested if that many bytes are not currently available, or zero (0) if the end of the stream has been reached.</returns>
+</member><member name="M:StaticRecompilation.ProcessMemoryStream.Write(System.Byte[],System.Int32,System.Int32)">
+	<summary>
+ Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.
+ </summary>
+	<param name="buffer"></param>
+	<param name="offset">The zero-based byte offset in buffer at which to begin copying bytes to the current stream. </param>
+	<param name="count">The number of bytes to be written to the current stream. </param>
+</member><member name="T:StaticRecompilation.ImageDosHeader">
+	<summary>
+ Dos header
+ </summary>
+</member><member name="P:StaticRecompilation.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:StaticRecompilation.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:StaticRecompilation.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:StaticRecompilation.LibDasm.get_real_instruction(System.IO.BinaryReader,System.UInt32@,System.UInt32@)">
+ Parse instruction flags, get opcode index
+
+</member>
+</members>
+</doc>
