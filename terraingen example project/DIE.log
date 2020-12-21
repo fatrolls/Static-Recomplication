@@ -1,0 +1,14 @@
+[2015-09-08 06:50:45,108] [INFO] [DIE.Lib.DataParser][DataParser.py:44] : Plugin path is set to C:\Tools\IDA 6.6\plugins\DIE\Plugins\DataParsers
+[2015-09-08 06:50:45,108] [INFO] [DIE.Lib.DataParser][DataParser.py:50] : Loading Plugins from C:\Tools\IDA 6.6\plugins\DIE\Plugins\DataParsers
+[2015-09-08 06:50:45,500] [ERROR] [yapsy][PluginManager.py:491] : Unable to import plugin: C:\Tools\IDA 6.6\plugins\DIE\Plugins\DataParsers\HandleParser\HandleParser
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\yapsy\PluginManager.py", line 488, in loadPlugins
+    candidate_module = imp.load_module(plugin_module_name,plugin_file,candidate_filepath+".py",("py","r",imp.PY_SOURCE))
+  File "C:\Tools\IDA 6.6\plugins\DIE\Plugins\DataParsers\HandleParser\HandleParser.py", line 5, in <module>
+    from win32api import *
+ImportError: No module named win32api
+[2015-09-08 06:50:45,562] [INFO] [DIE.Lib.DataParser][DataParser.py:62] : Loading plugin BoolParser
+[2015-09-08 06:50:45,578] [INFO] [DIE.Lib.DataParser][DataParser.py:62] : Loading plugin ModuleParser
+[2015-09-08 06:50:45,578] [INFO] [DIE.Lib.DataParser][DataParser.py:62] : Loading plugin StringParser
+[2015-09-08 06:50:45,578] [INFO] [DIE.Lib.DataParser][DataParser.py:62] : Loading plugin BasicStringParser
+[2015-09-08 06:50:45,578] [INFO] [DIE.Lib.DataParser][DataParser.py:62] : Loading plugin FunctionParser
